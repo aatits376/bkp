@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head
+<head>
   <meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Discover the quality dairy products and cleaning items at Bhusal Kirana Pasal, located in Devchuli-7, Rambas, Nawalpur, Nepal. Explore a wide range of offerings from a trusted store in the heart of Nawalpur.">
-<meta name="keywords" content="Bhusal Kirana Pasal, Tead Active, Bhusal Sabun Surf Udhyog, bhusal Ko Pasal, dairy products, cleaning items, Devchuli-7, Rambas, Nawalpur, Nepal, grocery store, local convenience store">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Welcome to Bhusal Kirana Pasal - Your trusted source for fresh, quality groceries and daily essentials. Explore a diverse selection of farm-fresh produce, pantry staples, and household items. Enjoy the convenience of online grocery shopping with Bhusal Kirana Pasal.">
@@ -27,7 +23,7 @@
 
   <div class="overlay" data-overlay></div>
 
-
+<!-- Pop Up -->
   <div class="modal" data-modal>
 
     <div class="modal-close-overlay" data-modal-overlay></div>
@@ -67,7 +63,9 @@
     </div>
 
   </div> 
+<!-- Popup end -->
 
+<!-- Bought Notification -->
   <div class="notification-toast" data-toast>
 
     <button class="toast-close-btn" data-toast-close>
@@ -95,14 +93,13 @@
     </div>
 
   </div>  
+  <!-- Notification End -->
 
 
 
 
 
-  <!--
-    - HEADER
-  -->
+ <!-- Header -->
 
   <header>
 
@@ -268,7 +265,7 @@
 
                 <li class="panel-list-item">
                   <a href="#">
-                    <img src="./assets/images/b11.png" alt="" width="250" height="119">
+                    <img src="./assets/images/b11.png" alt="men's fashion" width="250" height="119">
                   </a>
                 </li>
 
@@ -302,7 +299,7 @@
 
                 <li class="panel-list-item">
                   <a href="#">
-                    <img src="./assets/images/b11.png" alt="" width="250" height="119">
+                    <img src="./assets/images/b11.png" alt="women's fashion" width="250" height="119">
                   </a>
                 </li>
 
@@ -1023,19 +1020,15 @@
 
   </header>
 
+  <!-- Header End -->
 
 
 
 
-  <!--
-    - MAIN
-  -->
+  <!-- Main -->
 
   <main>
-
-    <!--
-      - BANNER
-    -->
+<!-- Banner -->
 
     <div class="banner">
 
@@ -1045,7 +1038,7 @@
 
           <div class="slider-item">
 
-            <img src="./assets/Saman/gheubg.png" alt="" class="banner-img">
+            <img src="./assets/Saman/gheubg.png" alt="women's latest fashion sale" class="banner-img">
 
             <div class="banner-content">
 
@@ -1056,8 +1049,22 @@
               <p class="banner-text">
                 Starting at Rs <b>1800</b>.00/Kg
               </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
+              <!--  -->
+              <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                <input value="1800" name="tAmt" type="hidden">
+                <input value="1700" name="amt" type="hidden">
+                <input value="100" name="txAmt" type="hidden">
+                <input value="0" name="psc" type="hidden">
+                <input value="0" name="pdc" type="hidden">
+                <input value="EPAYTEST" name="scd" type="hidden">
+                <input value="ee2c3ca1-696b-4cc5-a6be-2c40d929d453" name="pid" type="hidden">
+                <input value="http://merchant.com.np/page/esewa_payment_success?q=su" type="hidden" name="su">
+                <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu">
+                <input value="Shop Now" type="submit" class="banner-btn">
+                </form>
+                
+              <!--  -->
+              <!-- <a href="/payment.html" class="banner-btn">Shop now</a> -->
 
             </div>
 
@@ -1065,7 +1072,7 @@
 
           <div class="slider-item">
 
-            <img src="./assets/Saman/milkbg.png" alt="" class="banner-img">
+            <img src="./assets/Saman/milkbg.png" alt="women's latest fashion sale" class="banner-img">
 
             <div class="banner-content">
 
@@ -1076,8 +1083,22 @@
               <p class="banner-text">
                 Starting at Rs <b>100</b>.00/ltr
               </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
+               <!--  -->
+               <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                <input value="100" name="tAmt" type="hidden">
+                <input value="90" name="amt" type="hidden">
+                <input value="10" name="txAmt" type="hidden">
+                <input value="0" name="psc" type="hidden">
+                <input value="0" name="pdc" type="hidden">
+                <input value="EPAYTEST" name="scd" type="hidden">
+                <input value="ee2c3ca1-696b-4cc5-a6be-2c40d929d453" name="pid" type="hidden">
+                <input value="http://merchant.com.np/page/esewa_payment_success?q=su" type="hidden" name="su">
+                <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu">
+                <input value="Shop Now" type="submit" class="banner-btn">
+                </form>
+                
+              <!--  -->
+              <!-- <a href="#" class="banner-btn">Shop now</a> -->
 
             </div>
 
@@ -1085,7 +1106,7 @@
 
           <div class="slider-item">
 
-            <img src="./assets/saman/panirbg.png" alt="" class="banner-img">
+            <img src="./assets/saman/panirbg.png" alt="women's latest fashion sale" class="banner-img">
 
             <div class="banner-content">
 
@@ -1096,8 +1117,22 @@
               <p class="banner-text">
                 Starting at Rs <b>950</b>.00/Kg
               </p>
-
-              <a href="#" class="banner-btn">Shop now</a>
+              <!--  -->
+              <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                <input value="950" name="tAmt" type="hidden">
+                <input value="900" name="amt" type="hidden">
+                <input value="50" name="txAmt" type="hidden">
+                <input value="0" name="psc" type="hidden">
+                <input value="0" name="pdc" type="hidden">
+                <input value="EPAYTEST" name="scd" type="hidden">
+                <input value="ee2c3ca1-696b-4cc5-a6be-2c40d929d453" name="pid" type="hidden">
+                <input value="http://merchant.com.np/page/esewa_payment_success?q=su" type="hidden" name="su">
+                <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu">
+                <input value="Shop Now" type="submit" class="banner-btn">
+                </form>
+                
+              <!--  -->
+              <!-- <a href="#" class="banner-btn">Shop now</a> -->
 
             </div>
 
@@ -1108,22 +1143,18 @@
       </div>
 
     </div>
+<!-- Banner End -->
 
 
 
-
-
-    <!--
-      - CATEGORY
-    -->
-
+<!-- Category -->
     <div class="category">
 
       <div class="container">
 
         <div class="category-item-container has-scrollbar">
 
-         <a href="#"> <div class="category-item">
+         <a href="/Edibles/shop.html"> <div class="category-item">
 
           <div class="category-img-box">
             <img src="/assets/images/icons/icons8-grocery-94.png" alt="dress & frock" width="30">
@@ -1288,23 +1319,20 @@
       </div>
 
     </div>
+<!-- Category End -->
 
 
 
 
-
-    <!--
-      - PRODUCT
-    -->
+<!--   Product -->
 
     <div class="product-container">
 
       <div class="container">
 
-
-        <!--
-          - SIDEBAR
-        -->
+<!-- Product End -->
+       
+<!-- Sidebar -->
 
         <div class="sidebar  has-scrollbar" data-mobile-menu>
 
@@ -1819,7 +1847,8 @@
           </div>
 
         </div>
-
+        
+<!-- Sidebar End -->
 
 
         <div class="product-box">
@@ -1900,7 +1929,7 @@
                       <a href="#" class="showcase-category">Spices</a>
                   
                       <div class="price-box">
-                        <p class="price">Rs 45</p>
+                        <p class="price">$45</p>
                         <del>Rs 50</del>
                       </div>
                   
@@ -2501,8 +2530,22 @@
 
                       <del>Rs 3600</del>
                     </div>
-
-                    <button class="add-cart-btn">Shop Now</button>
+                    <!--  -->
+               <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                <input value="2800" name="tAmt" type="hidden">
+                <input value="2750" name="amt" type="hidden">
+                <input value="50" name="txAmt" type="hidden">
+                <input value="0" name="psc" type="hidden">
+                <input value="0" name="pdc" type="hidden">
+                <input value="EPAYTEST" name="scd" type="hidden">
+                <input value="ee2c3ca1-696b-4cc5-a6be-2c40d929d453" name="pid" type="hidden">
+                <input value="http://merchant.com.np/page/esewa_payment_success?q=su" type="hidden" name="su">
+                <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu">
+                <input value="Shop Now" type="submit" class="add-cart-btn">
+                </form>
+                
+              <!--  -->
+                    <!-- <button class="add-cart-btn">Shop Now</button> -->
 
                     <div class="showcase-status">
                       <div class="wrapper">
@@ -2589,8 +2632,22 @@
                       <p class="price">RS 500/Combo</p>
                       <del>RS 800</del>
                     </div>
-              
-                    <button class="add-cart-btn">Shop Now</button>
+                    <!--  -->
+               <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                <input value="500" name="tAmt" type="hidden">
+                <input value="480" name="amt" type="hidden">
+                <input value="20" name="txAmt" type="hidden">
+                <input value="0" name="psc" type="hidden">
+                <input value="0" name="pdc" type="hidden">
+                <input value="EPAYTEST" name="scd" type="hidden">
+                <input value="ee2c3ca1-696b-4cc5-a6be-2c40d929d453" name="pid" type="hidden">
+                <input value="http://merchant.com.np/page/esewa_payment_success?q=su" type="hidden" name="su">
+                <input value="http://merchant.com.np/page/esewa_payment_failed?q=fu" type="hidden" name="fu">
+                <input value="Shop Now" type="submit" class="add-cart-btn">
+                </form>
+                
+              <!--  -->
+                    <!-- <button class="add-cart-btn">Shop Now</button> -->
               
                     <div class="showcase-status">
                       <div class="wrapper">
@@ -3347,11 +3404,11 @@
 
             <a href="#" class="cta-content">
 
-              <p class="discount">10% Discount</p>
+              <p class="discount">25% Discount</p>
 
-              <h2 class="cta-title">Dairy Products</h2>
+              <h2 class="cta-title">Summer collection</h2>
 
-              <p class="cta-text">Starting @ Rs 1000</p>
+              <p class="cta-text">Starting @ $10</p>
 
               <button class="cta-btn">Shop now</button>
 
