@@ -87,6 +87,7 @@ for (let i = 0; i < accordionBtn.length; i++) {
 
 }
 
+
 document.onkeydown = function (e) {
   if (e.keyCode == 123) {
       return false;
@@ -103,8 +104,4 @@ document.onkeydown = function (e) {
   if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
       return false;
   }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e7864a899c056837bae1ba6c2b6ece46dc15cfdc

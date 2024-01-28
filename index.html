@@ -164,7 +164,25 @@
           </button>
 
         </div>
-       
+        <script type="text/javascript">
+          function search() {
+          let filter = document.getElementById('find').value.toUpperCase();
+          let item = document.querySelectorAll('.showcase');
+          let l = document.getElementsByTagName('h4');
+          for(var i = 0;i<=l.length;i++){
+          let a=item[i].getElementsByTagName('h4')[0];
+          let value=a.innerHTML || a.innerText || a.textContent;
+          if(value.toUpperCase().indexOf(filter) > -1) {
+          item[i].style.display="";
+          }
+          else
+          {
+          item[i].style.display="none";
+          }
+          }
+          }
+          </script>
+
         <div class="header-user-actions">
 
           <button class="action-btn">
@@ -205,7 +223,7 @@
               <ul class="dropdown-panel-list">
 
                 <li class="menu-title">
-                  <a href="/cate/shop.html">Edibles</a>
+                  <a href="#">Edibles</a>
                 </li>
 
                 <li class="panel-list-item">
@@ -1168,7 +1186,7 @@
               <p class="category-item-amount">(53)</p>
             </div>
 
-            <a href="/cate/shop.html" class="category-btn">Show all</a>
+            <a href="#" class="category-btn">Show all</a>
 
           </div>
 
@@ -2188,7 +2206,7 @@
                         <h4 class="showcase-title">Black Beans</h4>
                       </a>
             
-                      <a href="/cate/shop.html" class="showcase-category">Edibles</a>
+                      <a href="#" class="showcase-category">Edibles</a>
             
                       <div class="price-box">
                         <p class="price">Rs 180</p>
@@ -2235,7 +2253,7 @@
                         <h4 class="showcase-title">Chhole Grams</h4>
                       </a>
             
-                      <a href="/cate/shop.html" class="showcase-category">Edibles</a>
+                      <a href="#" class="showcase-category">Edibles</a>
             
                       <div class="price-box">
                         <p class="price">Rs 120/Kg</p>

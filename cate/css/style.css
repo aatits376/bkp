@@ -1,11 +1,11 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 body {
   overflow-x: hidden;
-  position: relative; }
+  position: relative; 
+}
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 28px;
   color: #6a6a6a;
@@ -26,7 +26,7 @@ a {
     font-weight: 600; }
 
 .hero {
-  background: hsl(126, 100%, 22%);
+  background: url(/assets/Saman/bgg.png);
 
   padding: calc(4rem - 30px) 0 0rem 0; }
   @media (min-width: 768px) {
@@ -42,13 +42,17 @@ a {
       .hero .intro-excerpt {
         max-width: 450px; } }
   .hero h1 {
+
+  font-family: "Poppins", sans-serif;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 30px; }
     @media (min-width: 1400px) {
       .hero h1 {
         font-size: 54px; } }
   .hero p {
+
+  font-family: "Poppins", sans-serif;
     color: rgba(255, 255, 255, 0.5);
     margin-botom: 30px; }
   .hero .hero-img-wrap {
@@ -145,6 +149,8 @@ a {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
     .product-section .product-item h3 {
+
+  font-family: "Poppins", sans-serif;
       font-weight: 600;
       font-size: 16px; }
     .product-section .product-item strong {
